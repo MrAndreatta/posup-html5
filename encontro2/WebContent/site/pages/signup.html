@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <base href="/encontro2/site/">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signup.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+  	<nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Controle de Navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Meu Projeto</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="pages/login.html">Entrar</a></li>
+            <li class="active"><a href="pages/signup.html">Cadastre-se</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  	
+  	<div class="container">
+			<form class="form-signup">
+				<h2 class="form-heading">Cadastre-se</h2>
+				
+				<div class="form-group">
+					<img class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+			    <input type="file" id="foto">
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="name">Nome</label>
+			    <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="email">Email</label>
+			    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="senha">Senha</label>
+			    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+			  </div>
+			  
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Aceito os Termos e as condições de uso 
+			    </label>
+			  </div>
+			  
+			  <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+			</form>
+ 		</div>
+ 		
+  </body>
+ </html>			
